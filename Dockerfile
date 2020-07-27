@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
     build-essential \
     cmake \
+    ladspa-sdk \
     g++ \
     libgtk-3-dev \
     libfreetype6-dev \
