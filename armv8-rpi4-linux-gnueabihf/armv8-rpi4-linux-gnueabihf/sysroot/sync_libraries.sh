@@ -1,5 +1,6 @@
 #!/bin/bash
 rsync -rzLR --safe-links \
+pi@raspberrypi:/usr/include/ \
 pi@raspberrypi:/lib/arm-linux-gnueabihf/libz.so.1 \
 pi@raspberrypi:/lib/arm-linux-gnueabihf/libz.so.1.2.11 \
 pi@raspberrypi:/usr/lib/arm-linux-gnueabihf/libpng.so \
