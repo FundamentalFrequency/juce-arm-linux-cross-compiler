@@ -8,6 +8,7 @@ WORKDIR /toolchain
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     tzdata \
+    zip \
     git \
     ca-certificates \
     build-essential \
