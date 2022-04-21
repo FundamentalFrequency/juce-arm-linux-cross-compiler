@@ -23,3 +23,7 @@ bundles/
 vendor/pkg/
 pyenv
 Vagrantfile
+
+# Large files
+sysroot/usr/lib/chromium-browser/chromium-browser
+sysroot/usr/lib/chromium-browser/chromium-browser-v7
