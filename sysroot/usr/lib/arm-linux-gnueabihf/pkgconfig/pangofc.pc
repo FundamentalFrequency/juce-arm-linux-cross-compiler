@@ -1,0 +1,9 @@
+prefix=/usr
+libdir=${prefix}/lib/arm-linux-gnueabihf
+includedir=${prefix}/include
+
+Name: Pango FC
+Description: Fontconfig support for Pango
+Version: 1.46.2
+Requires: pangoft2
+Cflags: -I${includedir}/pango-1.0

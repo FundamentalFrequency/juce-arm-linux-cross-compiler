@@ -1,0 +1,9 @@
+prefix=/usr
+libdir=${prefix}/lib/arm-linux-gnueabihf
+includedir=${prefix}/include
+
+Name: OpenGL
+Description: OpenGL (without GLX) library and headers.
+Version: 4.5
+Libs: -L${libdir} -lOpenGL
+Cflags:-I${includedir}

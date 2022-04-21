@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib/arm-linux-gnueabihf
+includedir=/usr/include
+server_libs=-L/usr/lib/arm-linux-gnueabihf -ljackserver
+
+Name: jack
+Description: the Jack Audio Connection Kit: a low-latency synchronous callback-based media server
+Version: 1.9.17
+Libs: -L/usr/lib/arm-linux-gnueabihf -ljack
+Cflags: -I/usr/include

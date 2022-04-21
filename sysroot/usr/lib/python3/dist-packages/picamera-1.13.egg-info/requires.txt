@@ -1,0 +1,14 @@
+
+
+[test]
+coverage
+pytest
+mock
+Pillow
+numpy
+
+[doc]
+sphinx
+
+[array]
+numpy

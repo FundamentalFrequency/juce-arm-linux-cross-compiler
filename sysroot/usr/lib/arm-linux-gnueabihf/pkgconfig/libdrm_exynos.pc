@@ -1,0 +1,10 @@
+prefix=/usr
+libdir=${prefix}/lib/arm-linux-gnueabihf
+includedir=${prefix}/include
+
+Name: libdrm_exynos
+Description: Userspace interface to exynos kernel DRM services
+Version: 0.7
+Requires.private: libdrm
+Libs: -L${libdir} -ldrm_exynos
+Cflags: -I${includedir} -I${includedir}/libdrm -I${includedir}/exynos
