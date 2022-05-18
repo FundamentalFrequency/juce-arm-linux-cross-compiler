@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     cmake \
     g++ \
     clang \
-    llvm 
+    llvm \
+    lld
 
 COPY ./ .
